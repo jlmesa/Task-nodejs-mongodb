@@ -7,3 +7,4 @@ npm i dotenv
 "build": "babel src -d dist" --> Ejecutar --> npm run build
 npm install --save-dev @babel/plugin-transform-runtime
 npm i ncp -D
+npm i @babel/runtime
