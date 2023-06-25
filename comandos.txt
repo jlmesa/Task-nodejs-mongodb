@@ -1,0 +1,9 @@
+npm init -y
+npm i express express-handlebars mongoose morgan
+npm i -D @babel/core @babel/cli @babel/node @babel/preset-env nodemon
+"start": "nodemon src/index.js --exec babel-node" -> Ejecutar 
+npm i dotenv
+->package.json -->
+"build": "babel src -d dist" --> Ejecutar --> npm run build
+npm install --save-dev @babel/plugin-transform-runtime
+npm i ncp -D
